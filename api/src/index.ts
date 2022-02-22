@@ -12,5 +12,5 @@ app.post("/upload", (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`File Manager API is now running on port ${port}!`);
+  console.log(`File Manager API is available at http://localhost:${port}`);
 });

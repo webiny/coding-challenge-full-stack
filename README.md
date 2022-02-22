@@ -4,7 +4,15 @@ Welcome to Webiny Coding Challenge for the Full-Stack Developer role!
 
 This repo provides everything you need to immediately start working on the problem at hand. The goal of this task is not to intimidate you with weird algorithm tasks, but to see how you approach a real world problem, which resembles things we work with at Webiny, on a daily basis.
 
-Out of the box, you get a React app setup, with webpack, Typescript, and React Fast Refresh for better DX. You also get the most basic `express` app setup, with `nodemon` and `ts-node`.
+
+## Setup
+
+Out of the box, you get a React app setup, with `webpack`, Typescript, and React Fast Refresh for better DX. You also get the most basic `express` app setup, with `nodemon` and `ts-node`. Feel free to add more utilities and tweak the configs to match your normal workflow.
+
+- Clone the repo.
+- Run `yarn` to install dependencies.
+- Run `yarn start` to start both the React app and the API.
+- Alternatively, you can `cd` into `api` or `app` folders, and run `yarn start` there, to start apps individually.
 
 ## The Task
 

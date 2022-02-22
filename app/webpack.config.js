@@ -64,5 +64,6 @@ module.exports = {
   ].filter(Boolean),
   devServer: {
     hot: true,
+    port: 3001,
   },
 };
