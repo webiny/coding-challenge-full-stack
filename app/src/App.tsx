@@ -4,6 +4,7 @@ import CssBaseline from "@mui/material/CssBaseline";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { AppBar } from "./components/AppBar";
 import { Welcome } from "./components/Welcome";
+import ImageGalleryContainer from "./containers/ImageGalleryContainer";
 
 const theme = createTheme({
   palette: {
@@ -22,7 +23,7 @@ export const App = () => {
       <CssBaseline />
       <Box sx={{ flexGrow: 1 }}>
         <AppBar />
-        <Welcome />
+        <ImageGalleryContainer />
       </Box>
     </ThemeProvider>
   );

@@ -47,6 +47,10 @@ module.exports = {
         exclude: /node_modules/,
         use: "raw-loader",
       },
+      {
+        test: /\.(png|jpe?g|gif)$/i,
+        loader: "file-loader",
+      },
     ],
   },
   resolve: {
@@ -65,6 +69,6 @@ module.exports = {
   devServer: {
     hot: true,
     port: 3001,
-    open: true
+    open: true,
   },
 };
